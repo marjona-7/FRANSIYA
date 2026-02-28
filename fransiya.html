@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <style>
+    form {
+        text-align: center;
+color: rgb(186, 9, 9);
+    }
+    h3 {
+        color: rgb(186, 9, 9);
+        text-align: center;
+    }
+    
+button{
+     color: white;
+    background-color: brown;
+    border: 3px solid red;
+    width: 200px;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+    </style>
+</head>
+<body>
+    
+    <form action="./fransiya2.html">
+        <label for="ism">Ism:</label>
+        <input type="text" 
+         name="ism"
+          id="ism"
+        placeholder="Ismingizni kiriting..." 
+        required maxlength="15"
+        minlength="5"> 
+        <br>
+        <br>
+        <br>
+        <label for="familya"> Familya:</label>
+        <input type="text" 
+        name="familya"
+        placeholder="Familyangizni kiriting..."
+        id="familya"
+        required maxlength="20"
+        minlength="5">
+        <br>
+        <br>
+        <br>
+        <label for="yosh">Yosh:</label>
+        <input type="number"
+        name="yosh"
+        placeholder="Yoshingizni kiriting..."
+        id="yosh"
+       required min="10"
+        max="100">
+        <br>
+        <br>
+        <br>
+<label for="email">Email</label>
+<input type="email"
+name="email"
+placeholder="Emailingizni kiriting..."
+id="email"
+required minlength="1"
+maxlength="30">
+<br>
+<br>
+<br>
+ <button type="reset"> Tozalash</button>
+ <br>
+ <br>
+<button type="submit"> Yuborish</button>
+    </form>
+</body>
+</html>
